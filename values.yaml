@@ -1,11 +1,11 @@
 skywalking-helm:
   oap:
     image:
-      tag: 6.1.0
+      tag: 10.0.1
     storageType: elasticsearch
   ui:
     image:
-      tag: 6.1.0
+      tag: 10.0.1
   postgresql:
     enabled: false
   elasticsearch:
