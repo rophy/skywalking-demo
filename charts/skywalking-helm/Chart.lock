@@ -1,0 +1,12 @@
+dependencies:
+- name: elasticsearch
+  repository: https://helm.elastic.co/
+  version: 7.17.3
+- name: postgresql
+  repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+  version: 12.1.2
+- name: skywalking-banyandb-helm
+  repository: oci://registry-1.docker.io/apache
+  version: 0.2.0
+digest: sha256:5d778515d2f51df4fb19f11412128ea89f1e7160d7461ac777b4d91972b1a6be
+generated: "2024-07-22T17:18:24.308231001+08:00"
