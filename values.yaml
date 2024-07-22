@@ -8,3 +8,5 @@ skywalking-helm:
       tag: 6.1.0
   postgresql:
     enabled: false
+  elasticsearch:
+    antiAffinity: ""
